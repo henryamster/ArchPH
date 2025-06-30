@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Archive Snapshot",
+    "version": "1.0",
+    "description": "Open hyperlinks as an archive.ph cached snapshot.",
+    "permissions": ["contextMenus"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
